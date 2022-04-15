@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    
+    text-align: center;
+    background: linear-gradient(rgba(1, 1, 8, 0.5),rgba(0, 0, 12, 0.5)), url(../assets/contact-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: josefin,cursive;
+    
+}
+ul li{
+    list-style-type: none;
+  }
+  .floatybox {
+    display: inline-block;
+    width: 123px;
+}
+
+/*************** contact.html **************/
+
+/* section five */
+.section-five .container div{
+    margin: 10px 0;
+}
+.contact-top{
+    text-align: center;
+}
+.contact-top h3{
+    font-size: 18px;
+}
+.span{
+    display: inline-block;
+}
+.contact-top p{
+    font-weight: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-middle div{
+    padding: 0.5px 0;
+    background: var(--dark);
+    color: #fff;
+    display: inline-block;
+}
+.contact-middle ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-middle div span{
+    display: inline-block;
+}
+.contact-icon{
+    font-size: 30px;
+    display: flex;
+}
+.contact-middle div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-middle div p{
+    font-weight: 100;
+    opacity: 0.7;
+}
+.contact-bottom{
+    margin-top: 50px!important;
+}
+.contact-bottom .form{
+    padding: 0 20px;
+}
+
+/************** end of contact.html **********/
+
+.contact-title{
+    margin-top: 50px;
+    color: #fff;
+    transition:all 4s ease-in-out;
+
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+input{
+    height: 45px;
+}
+.submit{
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-color: transparent;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    width: 110px;
+    border-radius: 50px;
+    font-family: Livvic,cursive;
+}
+.submit:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/*-------------------  media query   --------------------------*/
+
+@media only screen and (max-width: 1130px){
+
+    body{
+        padding: 2rem !important;
+        bottom: 1.2rem !important;
+        
+    }
+    .form-control.submit{
+    padding: 0 !important;
+    width: 20% !important;
+        
+    }
+    .form-control{
+        padding-left:0rem !important;
+        
+        }
+ /* footer */
+ .footer-container{
+    padding-bottom:auto;}  
+
+}
+
+@media only screen and (max-width: 768px){
+
+    body{
+    padding: 2rem 1.4rem !important ;
+    text-align: center;
+    width: 80% !important;
+    height: 125vh;
+    }
+.form-control.submit{
+    padding: 0 1.4rem;
+    width: 40% !important;
+}
+
+.form-control{
+    padding:0;
+    width: 80% !important;}
+
+}
+/* footer */
+.footer-container > div{
+    padding-bottom: auto;
+}
+
+
